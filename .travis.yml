@@ -2,6 +2,5 @@ language: python
 python:
     - "3.6"
 install:
-  - pip install Flask-HTTPAuth
-script:
-    - pytest
+    - pip install Flask-HTTPAuth
+script: make test
