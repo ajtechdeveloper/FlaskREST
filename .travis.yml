@@ -3,4 +3,4 @@ python:
     - "3.6"
 install:
     - pip install Flask-HTTPAuth
-script: make test
+script: make && make install
